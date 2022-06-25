@@ -1,0 +1,325 @@
+.layer{
+    position: absolute;
+    top: 120%;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(255, 255, 255, 0.641);
+    transition: all 0.4s;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Movie:hover .layer{
+    top: 0;
+}
+
+.Search{
+    width: 90%;
+    background-color: transparent;
+    border: 2px transparent solid;
+    border-bottom: 2px white solid;
+    color: white;
+    text-align: center;
+    
+}
+
+.green{
+    border-bottom: 2px green solid;
+}
+.red{
+    border-bottom: 2px red solid;
+}
+.white{
+    border-bottom: 2px white solid;
+}
+.SearchBars{
+    position: relative;
+    left: 50px;
+}
+
+body{
+    background-color: black;
+}
+
+.Movie{
+  border-radius: 10px;
+}
+
+
+
+.noresults{
+    color: red;
+}
+
+.RightPart{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+    background-color: white;
+
+}
+.LeftPart{
+    width: 70%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.SideBar{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 300px;   
+    position: fixed;
+    left: calc(-300px * calc(70 / 100));
+    top: 0;
+    bottom: 0;
+    transition: 0.5s all;
+    z-index: 99;
+}
+
+.OpenBar{
+    cursor: pointer;
+    display: block;
+}
+
+.CloseBar{
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+.First{
+    width: 100%;
+    height:var(--HeightVar);
+    color: white;
+    display: none;
+    position:absolute;
+    bottom:var(--BottomVar);
+    left: 0;
+    right: 0;
+}   
+
+
+.Second{
+    width: 100%;
+    height: calc( var(--HeightVar) - 10vh );
+    color: white;
+    display: none;
+    position:absolute;
+    bottom:var(--BottomVar);
+    left: 0;
+    right: 0;
+}  
+
+
+.Third{
+    width: 100%;
+    height: calc( var(--HeightVar) - 20vh );
+    color: white;
+    display: none;
+    position:absolute;
+    bottom:var(--BottomVar);
+    left: 0;
+    right: 0;
+}  
+
+
+.Fourth{
+    width: 100%;
+    height: calc( var(--HeightVar) - 30vh );
+    color: white;
+    display: none;
+    position:absolute;
+    bottom:var(--BottomVar);
+    left: 0;
+    right: 0;
+}  
+
+
+.Fifth{
+    width: 100%;
+    height: calc( var(--HeightVar) - 40vh );
+    color: white;
+    display: none;
+    position:absolute;
+    bottom:var(--BottomVar);
+    left: 0;
+    right: 0;
+}  
+
+
+.Sixth{
+    width: 100%;
+    height: calc( var(--HeightVar) - 50vh );
+    color: white;
+    display: none;
+    position:absolute;
+    bottom:var(--BottomVar);
+    left: 0;
+    right: 0;
+}  
+
+.newicons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+
+body{
+    font-family: coffe;
+    --HeightVar :60vh ;
+    --BottomVar : 20%
+}
+ 
+@font-face {
+    font-family: kuban;
+    src: url(../fonts/KubanPro-Regular.otf);
+}
+
+
+@font-face {
+    font-family: coffe;
+    src: url(../fonts/kenyan_coffee/kenyan\ coffee\ rg.ttf);
+}
+
+
+
+.title{
+    /* font-family: kuban; */
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+
+
+::selection{
+    background-color: white;
+    color: black;
+    font-size: larger;
+}
+
+.btn{
+    font-size: 25px;
+}
+.btn:hover{
+    color: white;
+}
+
+input{
+    font-size: 25px;
+}
+
+
+.title1{
+    font-size: 70px;
+}
+
+.title2{
+    
+    font-size: 25px;
+}
+
+
+.AllMovies{
+    position: relative;
+    left: 50px;
+}
+.CurrentTitle{
+    position: relative;
+    left: 50px;
+}
+.contactUs{
+    position: relative;
+    left: 50px;
+}
+
+
+.ErrorMsgPass ,.ErrorMsgRepass, .ErrorMsgAge,.ErrorMsgPhone,.ErrorMsgName,.ErrorMsgEmail{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: red;
+    transition: 0.4s all;
+    opacity: 0;
+    text-transform:capitalize ;
+}
+
+/* .ErrorMsgRepass{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: red;
+    transition: 0.4s all;
+    opacity: 0;
+} */
+
+
+.call{
+    position: relative;
+    bottom: 3px;
+    left: 5px;
+  
+}
+
+
+.readmore{
+    font-size: 25px;
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 0;
+    padding: 15px 90px;
+    transition: 0.4s all;
+    color:white;
+}
+.readmore:hover{
+    background-color: rgba(0, 0, 0, 0.355);
+    color:white;
+    box-shadow: 5px 5px ;
+    transform: translateY(-5px);
+}
+.TopPage{
+    cursor: pointer;
+    
+}
+
+
+.btn{
+    transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color 
+    .15s ease-in-out,box-shadow .15s ease-in-out,
+    transform 0.4s 
+    ;
+}
+.icon{
+    transition: 0.4s all;
+}
+.icon:hover{
+    transform: translateY(-5px);
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+}
