@@ -334,3 +334,79 @@ Repass.addEventListener('input',function(e){
         Erorr.style.opacity='1'
     }
 })
+
+
+
+document.querySelector('.color').addEventListener('click',function(){
+    console.log('clicked daddy');
+    var body =document.querySelector('body')
+    body.classList.toggle('white')
+
+    var Searchs =document.querySelectorAll('.Search')
+    for (const Search of Searchs) {
+        Search.classList.toggle('SearchBlack')
+    }
+
+
+    var Title = document.querySelector('.CurrentTitle')
+    Title.classList.toggle('white')
+
+    var RightPart =document.querySelector('.RightPart')
+    var LeftPart =document.querySelector('.LeftPart')
+    var MovieLogo =document.querySelector('.MovieLogo')
+    MovieLogo.classList.toggle('whiteText2')
+    RightPart.classList.toggle('black')
+    LeftPart.classList.toggle('white')
+
+
+
+    var MovieTypes =document.querySelectorAll('.MovieType')
+    for (const MovieType of MovieTypes) {
+        MovieType.classList.toggle('blackText')
+    }
+
+
+    var Movs4u = document.querySelector('.Movs4u')
+    Movs4u.classList.toggle('blackText')
+     
+    var newicons =document.querySelectorAll('.newicons')
+    for (const icon of newicons) {
+        icon.classList.toggle('blackText')
+    }
+
+    var linked = document.querySelector('.linked')
+    linked.classList.toggle('blackText')
+
+
+    var Conc = document.querySelector('.Conc')
+    Conc.classList.toggle('blackText')
+
+
+
+    var readmore = document.querySelector('.readmore')
+    readmore.classList.toggle('readmoreInverse')
+
+    
+    var layers =document.querySelectorAll('.layer')
+    for (const layer of layers) {
+        
+        layer.classList.toggle('whiteText')
+        layer.classList.toggle('layerBlack')
+    }
+
+
+
+
+
+    // var ss = document.styleSheets[0]
+    // console.log(ss);
+    // // Use insertRule() for standards, addRule() for IE
+    // if ("insertRule" in ss) {
+    //     // ss.insertRule('::-moz-selection { background-color: white; }', 0);    
+    //     ss.insertRule('p::selection { background-color: black; }', 0);    
+    //     // ss.insertRule('::-webkit-selection { background-color: white; }', 0);    
+    // }
+    // console.log(ss);   
+})
+
+

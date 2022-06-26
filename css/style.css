@@ -1,3 +1,7 @@
+
+
+
+
 .layer{
     position: absolute;
     top: 120%;
@@ -14,6 +18,11 @@
     flex-wrap: wrap;
 }
 
+
+.layerBlack{
+    background-color: rgba(0, 0, 0, 0.641);
+}
+
 .Movie:hover .layer{
     top: 0;
 }
@@ -27,6 +36,16 @@
     text-align: center;
     
 }
+
+.SearchBlack{
+    width: 90%;
+    background-color: transparent;
+    border: 2px transparent solid;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    color: black;
+    text-align: center;
+}
+
 
 .green{
     border-bottom: 2px green solid;
@@ -212,6 +231,7 @@ body{
     /* font-family: kuban; */
     font-size: 60px;
     letter-spacing: 5px;
+    color: white;
 }
 
 
@@ -222,11 +242,11 @@ body{
     font-size: larger;
 }
 
-.btn{
+.btn{   
     font-size: 25px;
 }
 .btn:hover{
-    color: white;
+    color: inherit;
 }
 
 input{
@@ -295,9 +315,21 @@ input{
     transition: 0.4s all;
     color:white;
 }
+
+
+.readmoreInverse{
+    font-size: 25px;
+    background-color: transparent;
+    border: solid black 2px;
+    border-radius: 0;
+    padding: 15px 90px;
+    transition: 0.4s all;
+    color:black;
+}
+
 .readmore:hover{
-    background-color: rgba(0, 0, 0, 0.355);
-    color:white;
+    /* background-color: rgba(0, 0, 0, 0.355); */
+    /* color:white; */
     box-shadow: 5px 5px ;
     transform: translateY(-5px);
 }
@@ -322,4 +354,46 @@ input{
 
 .btn:hover {
     transform: translateY(-5px);
+}
+
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+
+
+.whiteText{
+    color: white;
+}
+
+.blackText{
+    color: black;
+    text-decoration: none;
+}
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.blackText2{
+    color: black;
+    text-decoration: none;
+}
+
+.whiteText2{
+    color: white;
+}
+
+.color{
+    cursor: pointer;
 }
