@@ -24,7 +24,6 @@ The Website fetches movies in friendly interface. Can search for a specific movi
 ![Movie 6](https://user-images.githubusercontent.com/93868173/196006677-9accfa46-9e3b-4076-ab28-5a27a4e6ab98.png)
 
 
-<img src="https://user-images.githubusercontent.com/93868173/196001824-8dc59ffc-3a81-4691-b605-7548d44b3cb6.jpg" data-canonical-src="https://user-images.githubusercontent.com/93868173/196001824-8dc59ffc-3a81-4691-b605-7548d44b3cb6.jpg" width="400" height="800"/>
 
 
 
