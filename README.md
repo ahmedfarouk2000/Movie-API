@@ -10,7 +10,7 @@ Project is created with:
 - VanillaJS
 - CSS
 - HTML
--Bootstrap
+  -Bootstrap
 
 ## Features
 The Website fetches movies in friendly interface. Can search for a specific movie using the search bar as shown. An animated sidebar to filter the movies either current playing movies, popular, top rated, trending or upcoming movies. Can also adjust the theme from the settings. Static Input Form with validation to be used in the future.
