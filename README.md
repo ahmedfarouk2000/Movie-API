@@ -1,4 +1,4 @@
-# Project Title
+# Movie Viewer
 
 website that fetches Movies from TMDB data base Apis.
 Live-Demo: https://movieapi-af.netlify.app/
